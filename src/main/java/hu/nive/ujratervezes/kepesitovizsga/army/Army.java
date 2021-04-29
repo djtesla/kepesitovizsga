@@ -6,7 +6,7 @@ import java.util.List;
 
 public class Army {
 
-    List<MilitaryUnit> units = new ArrayList<>();
+    private List<MilitaryUnit> units = new ArrayList<>();
 
 
     public void addUnit(MilitaryUnit militaryUnit) {
