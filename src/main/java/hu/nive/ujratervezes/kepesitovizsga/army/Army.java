@@ -53,4 +53,4 @@ public class Army {
 
         getArmyDamage(), ami visszaadja, hogy az aktuális támadással mennyi sebzést okoz a sereg összesen,
 
-        getArmySize(), ami visszaadja, hogy hány egységből áll a sereg.*/
+        getArmySize() , ami visszaadja, hogy hány egységből áll a sereg.*/
