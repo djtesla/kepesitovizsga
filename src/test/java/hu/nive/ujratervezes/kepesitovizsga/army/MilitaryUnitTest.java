@@ -9,7 +9,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 class MilitaryUnitTest {
 
-    /*@Test
+    @Test
     void testArcher() {
         Archer archer = new Archer();
         assertEquals(20, archer.doDamage());
@@ -44,5 +44,5 @@ class MilitaryUnitTest {
         swordsman.sufferDamage(20);
         assertEquals(80, swordsman.getHitPoints());
         assertEquals(10, swordsman.doDamage());
-    }*/
+    }
 }

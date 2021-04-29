@@ -15,7 +15,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class PhonebookTest {
 
-   /* private Phonebook phonebook;
+    private Phonebook phonebook;
 
     @BeforeEach
     void init() {
@@ -73,5 +73,5 @@ class PhonebookTest {
         assertTrue(Path.of(actualPath).toFile().exists());
         Set<String> actual = new HashSet<>(Files.readAllLines(Path.of(actualPath)));
         assertEquals(expected, actual);
-    }*/
+    }
 }

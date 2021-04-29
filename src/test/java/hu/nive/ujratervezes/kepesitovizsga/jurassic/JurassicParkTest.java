@@ -12,7 +12,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class JurassicParkTest {
 
-/*
+
 
     private JurassicPark jurassicPark;
 
@@ -20,9 +20,9 @@ class JurassicParkTest {
     void init() throws SQLException {
         MariaDbDataSource dataSource;
         dataSource = new MariaDbDataSource();
-        dataSource.setUrl("jdbc:mariadb://localhost:3306/employees?useUnicode=true");
-        dataSource.setUser("employees");
-        dataSource.setPassword("employees");
+        dataSource.setUrl("jdbc:mariadb://localhost:3306/dinosaur?useUnicode=true");
+        dataSource.setUser("dinosaur");
+        dataSource.setPassword("dinosaur");
 
         Flyway flyway = Flyway.configure().dataSource(dataSource).load();
 
@@ -38,7 +38,7 @@ class JurassicParkTest {
     void test_check() {
         assertEquals(List.of("Hypsilophodontida", "Maiasaurus", "Velociraptor"), jurassicPark.checkOverpopulation());
     }
-*/
+
 
 
 }
